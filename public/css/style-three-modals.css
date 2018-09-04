@@ -1,0 +1,836 @@
+/* ---------------- First Modal Style ---------------- */
+
+.modal-1 .columns {
+    padding: 0;
+}
+
+.modal-1 .cke_chrome {
+    border: none;
+}
+
+.modal-1 .cke_top {
+    border-bottom: #efefef solid 1px;
+    background: #f5f5f5;
+}
+
+.modal-1 .email-subject-editor {
+    float: none;
+    width: 100%;
+    padding: 20px;
+}
+
+.modal-1 .email-subject-editor .glyphicon,
+.modal-1 .email-body-editor .glyphicon {
+    font-family: Roboto;
+}
+
+.modal-1 .email-subject-editor .glyphicon-plus:before,
+.modal-1 .email-body-editor .glyphicon-plus:before {
+    font-family: 'Glyphicons Halflings';
+    font-size: 10px;
+    color: #e6993c;
+}
+
+.modal-1 .glyphicon-plus:before {
+    color: #e6993c;
+}
+
+.modal-1 .savestep-btn {
+    background: #e6993c !important;
+}
+
+.modal-1 .savestep-btn:hover {
+    background: #e4891c !important;
+}
+
+.modal-1 .email-subject-editor .contactList,
+.modal-1 .email-body-editor .contactList {
+    padding: 2px;
+    border: #4e5e8238 dotted 1px;
+    text-transform: uppercase;
+    font-size: 10px;
+    background: #dce7f3;
+}
+
+.modal-1 .email-body-editor {
+    padding: 20px;
+}
+
+.modal-1 .custom-variables {
+    padding: 20px;
+}
+
+.modal-1 .custom-variables h4 {
+    margin-top: 0;
+}
+
+.modal-1 .custom-variables .glyphicon {
+    font-size: 12px;
+    color: #6e7b98;
+}
+
+.modal-1 .custom-variables .h-card {
+    padding: 5px 0 5px 9px;
+}
+
+.modal-1 .custom-variables .contactList li {
+    border-radius: 6px;
+    background: #dce7f3;
+}
+
+.modal-1 .custom-variables .contactList li:hover {
+    background: #ddd;
+}
+
+.modal-1 .other-options td {
+    height: 45px;
+}
+
+.update-btn,
+.close-btn {
+    border: none;
+}
+
+.update-btn:focus,
+.update-btn:active,
+.update-btn:active:hover,
+.update-btn:active:focus {
+    background: #e7993c;
+}
+
+.close-btn:focus,
+.close-btn:active,
+.close-btn:active:hover,
+.close-btn:active:focus {
+    background: #3e3d3d;
+}
+
+.modal-1 .regular-checkbox {
+    display: none;
+}
+
+.modal-1 .regular-checkbox+label {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    padding: 7px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: -3px;
+}
+
+.modal-1 .regular-checkbox+label:active,
+.modal-1 .regular-checkbox:checked+label:active {
+    box-shadow: none;
+}
+
+.modal-1 .regular-checkbox:checked+label {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    color: #99a1a7;
+}
+
+.modal-1 .regular-checkbox:checked+label:after {
+    content: '\2714';
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    color: #ff9800;
+}
+
+.modal-1 .day-label {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.modal-1 input[type="time"] {
+    padding: 5px 5px;
+    border: #ddd solid 1px;
+}
+
+.modal-1 .modal-content {
+    margin-right: 10px;
+}
+
+.modal-1 .modal-dialog::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #424f6ac7;
+    border-radius: 50px;
+}
+
+.modal-1 .modal-dialog::-webkit-scrollbar {
+    width: 6px;
+    background-color: #ffffff59;
+    border-radius: 50px;
+}
+
+.modal-1 .modal-dialog::-webkit-scrollbar-thumb {
+    background-color: #e7e7e7;
+    border-radius: 50px;
+}
+
+.modal-1 .close-btn {
+    background: #61759e;
+}
+
+.modal-1 .form-btns-below .btn {
+    padding: 10px 30px !important;
+}
+
+.modal-1 .default-templates {
+    border: #384561 solid 1px;
+    background: #61759e;
+}
+
+.modal-1 .default-templates h3 {
+    color: #d5dae6;
+}
+
+.modal-1 .switch-field label {
+    background-color: #f5f7f9;
+    color: rgb(97, 117, 158);
+    border: 1px dotted rgb(167, 182, 212);
+}
+
+.modal-1 .switch-field label:hover {
+    background-color: #e4891c;
+    color: #fff;
+    border: #e4891c solid 1px;
+}
+
+
+/* ---------------- Second Modal Style ---------------- */
+
+.modal-2 .history-result th {
+    vertical-align: middle;
+}
+
+.modal-2 .table tr {
+    cursor: pointer;
+}
+
+.modal-2 .hiddenRow {
+    padding: 0 !important;
+    background-color: #fff;
+    font-size: 13px;
+}
+
+.modal-2 .hiddenRow .panel-body {
+    padding: 10px 20px 30px;
+}
+
+.modal-2 .hiddenRow .panel-body b {
+    margin-bottom: 6px;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.modal-2 .hiddenRow .panel-body p {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.modal-2 table {
+    margin-bottom: 0;
+}
+
+.modal-2 .locpages {
+    margin-bottom: 0;
+}
+
+.modal-2 .pagination {
+    margin: 14px 0;
+}
+
+.modal-2 .panel-title p {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+
+.modal-2 .scheme_step {
+    border: #c7c7c7 dotted 1px;
+    padding: 1px 2px 3px;
+    border-radius: 4px;
+    background: #dce7f3;
+    white-space: normal;
+}
+
+.modal-2 .scheme_step .glyphicon {
+    white-space: normal;
+    font-family: Roboto;
+    display: inline;
+}
+
+.modal-2 .scheme_step .glyphicon:before {
+    font-family: 'Glyphicons Halflings';
+    font-size: 10px;
+    color: #e7993c;
+}
+
+.modal-2 .subj-title {
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.modal-2 .glyphicon-chevron-down {
+    font-size: 12px;
+}
+
+.modal-2 .modal-content {
+    margin-right: 10px;
+}
+
+.modal-2 .modal-dialog::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #424f6ac7;
+    border-radius: 50px;
+}
+
+.modal-2 .modal-dialog::-webkit-scrollbar {
+    width: 6px;
+    background-color: #ffffff59;
+    border-radius: 50px;
+}
+
+.modal-2 .modal-dialog::-webkit-scrollbar-thumb {
+    background-color: #e7e7e7;
+    border-radius: 50px;
+}
+
+
+/*--*/
+
+.modal-2 .pagination-box {
+    background: #F5F7F9;
+}
+
+.modal-2 .history-result {
+    overflow: hidden;
+    border: #61759e8f solid 1px !important;
+}
+
+.modal-2 .modal-footer .close-btn {
+    background: #61759e !important;
+    color: #fff !important;
+    padding: 10px 30px !important;
+    font-size: 15px !important;
+    margin-top: -10px !important;
+}
+
+.modal-2 .modal-footer .close-btn:hover {
+    background: #42506A !important;
+}
+
+.modal-2 .hiddenRow .accordian-body {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.modal-2 .search-table-section .table td {
+    border: none;
+}
+
+.modal-2 .search-table-section .table tr:nth-child(odd)>td,
+.modal-2 .search-table-section .table th {
+    border-bottom: #ddd solid 1px;
+}
+
+.modal-2 .search-table-section .table th {
+    background: #61759e;
+    color: #d5dae6;
+    border-right: #dddddd3d dashed 1px;
+}
+
+.modal-2 .search-table-section .table th:last-child {
+    border-right: none;
+}
+
+.modal-2 .locpages #prev span {
+    margin-right: 5px;
+}
+
+.modal-2 .locpages #next a {
+    background: #61759e;
+    border-color: #61759e;
+}
+
+.modal-2 .locpages #prev span,
+.modal-2 .locpages #next a {
+    padding: 5px 11px;
+}
+
+.modal-2 .locpages li span,
+.modal-2 .locpages li a {
+    padding: 5px 10px;
+    border: #ddd solid 1px;
+    background: #fff;
+}
+
+.modal-2 .pagination>.active>a,
+.modal-2 .pagination>.active>span {
+    background-color: #e6993c;
+    border: none;
+    padding: 5px 11px;
+    margin-right: 5px;
+}
+
+
+/* ---------------- Third Modal Style ---------------- */
+
+.modal-3 .search-table-section {
+    border: #ddd solid 1px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.modal-3 .modal-footer .close-btn {
+    display: block;
+    margin: 0 auto;
+    background: #ddd;
+    border: none;
+    padding: 8px 20px;
+    color: #5d5d5d;
+    font-family: Roboto;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.modal-3 .modal-body {
+    padding: 30px 22px 10px;
+}
+
+.modal-3 .table tr {
+    cursor: pointer;
+}
+
+.modal-3 .hiddenRow {
+    padding: 0 !important;
+    background-color: #fff;
+    font-size: 13px;
+}
+
+.modal-3 .hiddenRow .panel-body {
+    padding: 10px 20px 30px;
+}
+
+.modal-3 .hiddenRow .panel-body b {
+    margin-bottom: 6px;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.modal-2 .hiddenRow .panel-body p {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.modal-3 table {
+    margin-bottom: 0;
+}
+
+.modal-3 .locpages {
+    margin-bottom: 0;
+}
+
+.modal-3 .pagination {
+    margin: 14px 0;
+}
+
+.modal-3 .panel-title p {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+
+.modal-3 .scheme_step {
+    border: #c7c7c7 dotted 1px;
+    padding: 1px 2px 3px;
+    border-radius: 4px;
+    background: #dce7f3;
+    white-space: normal;
+}
+
+.modal-3 .scheme_step .glyphicon {
+    white-space: normal;
+    font-family: Roboto;
+    display: inline;
+}
+
+.modal-3 .scheme_step .glyphicon:before {
+    font-family: 'Glyphicons Halflings';
+    font-size: 10px;
+    color: #e7993c;
+}
+
+.modal-3 .subj-title {
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.modal-3 .glyphicon-chevron-down {
+    font-size: 12px;
+}
+
+.modal-3 .modal-content {
+    margin-right: 10px;
+}
+
+.modal-3 .modal-dialog::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #424f6ac7;
+    border-radius: 50px;
+}
+
+.modal-3 .modal-dialog::-webkit-scrollbar {
+    width: 6px;
+    background-color: #ffffff59;
+    border-radius: 50px;
+}
+
+.modal-3 .modal-dialog::-webkit-scrollbar-thumb {
+    background-color: #e7e7e7;
+    border-radius: 50px;
+}
+
+
+/*--*/
+
+.modal-3 .pagination-box {
+    background: #F5F7F9;
+}
+
+.modal-3 .history-result {
+    overflow: hidden;
+    border: #61759e8f solid 1px !important;
+}
+
+.modal-3 .modal-footer .close-btn {
+    background: #61759e !important;
+    color: #fff !important;
+    padding: 10px 30px !important;
+    font-size: 15px !important;
+    margin-top: -10px !important;
+}
+
+.modal-3 .modal-footer .close-btn:hover {
+    background: #42506A !important;
+}
+
+.modal-3 .hiddenRow .accordian-body {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.modal-3 .search-table-section .table td {
+    border: none;
+}
+
+.modal-3 .search-table-section .table tr:nth-child(odd)>td,
+.modal-3 .search-table-section .table th {
+    border-bottom: #ddd solid 1px;
+}
+
+.modal-3 .search-table-section .table th {
+    background: #61759e;
+    color: #d5dae6;
+    border-right: #dddddd3d dashed 1px;
+}
+
+.modal-3 .search-table-section .table th:last-child {
+    border-right: none;
+}
+
+.modal-3 .locpages #prev span {
+    margin-right: 5px;
+}
+
+.modal-3 .locpages #next a {
+    background: #61759e;
+    border-color: #61759e;
+}
+
+.modal-3 .locpages #prev span,
+.modal-3 .locpages #next a {
+    padding: 5px 11px;
+}
+
+.modal-3 .locpages li span,
+.modal-3 .locpages li a {
+    padding: 5px 10px;
+    border: #ddd solid 1px;
+    background: #fff;
+}
+
+.modal-3 .pagination>.active>a,
+.modal-3 .pagination>.active>span {
+    background-color: #e6993c;
+    border: none;
+    padding: 5px 11px;
+    margin-right: 5px;
+}
+
+.modal-3 .modal-footer {
+    border-top: none;
+}
+
+
+/* ---------------- Media Queries ---------------- */
+
+@media only screen and (max-width: 1024px) {
+    /* -------- Modal 1 -------- */
+    .modal-1 .other-options td:nth-of-type(1):before {
+        content: "";
+    }
+    .modal-1 .other-options td:nth-of-type(2):before {
+        content: "";
+    }
+    .modal-1 .other-options td {
+        padding: 0 !important;
+        display: table-cell;
+        vertical-align: inherit;
+    }
+    .modal-1 .other-options tr {
+        border-bottom: none;
+    }
+    .modal-1 .modal-dialog {
+        width: 98%;
+        left: 10px;
+    }
+    .modal-1 .other-options td strong {
+        margin-right: 10px;
+    }
+    .modal-1 .search-container b {
+        margin-top: 10px;
+    }
+    /* -------- Modal 2 and 3 -------- */
+    .modal-2 .history-result,
+    .modal-3 .history-result {
+        overflow: hidden;
+    }
+    .modal-2,
+    .modal-3 {
+        padding-right: 0 !important;
+    }
+    .modal-2 .modal-dialog,
+    .modal-3 .modal-dialog {
+        width: 98%;
+        left: 10px;
+    }
+    .modal-2 .subject-panel,
+    .modal-3 .subject-panel {
+        padding: 10px 15px !important;
+        font-size: 16px !important;
+        font-weight: 400;
+    }
+    .modal-2 .accordion-toggle,
+    .modal-3 .accordion-toggle {
+        border-bottom: none;
+    }
+    .modal-2 td:nth-of-type(1):before {
+        content: "";
+    }
+    .modal-2 td:nth-of-type(2):before {
+        content: "Hiring Manager";
+    }
+    .modal-2 td:nth-of-type(3):before {
+        content: "Email";
+    }
+    .modal-2 td:nth-of-type(4):before {
+        content: "Company";
+    }
+    .modal-2 td:nth-of-type(5):before {
+        content: "Opens";
+    }
+    .modal-2 td:nth-of-type(6):before {
+        content: "Time Sent";
+    }
+    .modal-2 td:nth-of-type(7):before {
+        content: "Actions";
+    }
+    .modal-3 td:nth-of-type(1):before {
+        content: "";
+    }
+    .modal-3 td:nth-of-type(2):before {
+        content: "Name";
+    }
+    .modal-3 td:nth-of-type(3):before {
+        content: "Email Address";
+    }
+    .modal-3 td:nth-of-type(4):before {
+        content: "Company";
+    }
+    .modal-3 td:nth-of-type(5):before {
+        content: "Actions";
+    }
+    .modal-2 .table td,
+    .modal-3 .table td {
+        border-top: none;
+    }
+    .modal-2 .search-table-section .table tr:nth-child(odd)>td,
+    .modal-2 .search-table-section .table th,
+    .modal-3 .search-table-section .table tr:nth-child(odd)>td,
+    .modal-3 .search-table-section .table th {
+        border-bottom: none;
+    }
+    .modal-2 .subject-panel,
+    .modal-3 .subject-panel {
+        background: #F5F7F9;
+        border-bottom: #ddd dashed 1px !important;
+    }
+    .modal-2 .hiddenRow .accordian-body,
+    .modal-3 .hiddenRow .accordian-body {
+        border-bottom: none;
+        border-top: 1px dashed #ddd;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    /* -------- Modal 1 -------- */
+    #toolbarLocation_subject1,
+    #toolbarLocation1,
+    #toolbarLocation_subject2,
+    #toolbarLocation2,
+    #toolbarLocation_subject3,
+    #toolbarLocation3 {
+        min-width: auto !important;
+    }
+    .modal-1 .email-body-editor,
+    .modal-1 .custom-variables {
+        width: 100%;
+    }
+    .modal-1 .custom-variables {
+        padding: 0;
+        border-left: none;
+        border-top: #e4e4e4 solid 1px;
+    }
+    .modal-1 .custom-variables .contactList li {
+        display: inline-block;
+    }
+    .modal-1 .custom-variables .h-card {
+        padding: 5px 9px 5px 9px;
+        display: inline-block;
+    }
+    .modal-1 .custom-variables h4 {
+        background: #efefef;
+        padding: 11px;
+        border-bottom: #e2e2e2 solid 1px;
+    }
+    .modal-1 .custom-variables .contactList {
+        padding: 5px 20px 12px;
+    }
+    .modal-1 .email-body-editor {
+        min-height: 150px;
+        height: auto;
+    }
+    .modal-1 .other-options td {
+        display: block;
+    }
+    .modal-1 .other-options td {
+        height: auto;
+        margin-bottom: 8px;
+    }
+    .modal-1 #scheme_steps select {
+        margin-left: 0;
+    }
+    /* -------- Modal 2 and 3 -------- */
+    .modal-2 .table tr:last-child,
+    .modal-3 .table tr:last-child {
+        border-bottom: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* -------- Modal 1 -------- */
+    .modal.in .modal-dialog {
+        width: 96%;
+        top: 50px;
+    }
+    .modal-body {
+        padding: 25px 15px 15px;
+    }
+    .modal-1 .default-templates {
+        padding: 10px 17px;
+    }
+    .modal-1 .scheme_step {
+        padding: 25px 15px;
+    }
+    .modal-1 .day-label {
+        margin-bottom: 5px;
+    }
+    .modal-1 .form-btns-below {
+        margin-top: 20px;
+    }
+    .modal-1 .modal-dialog {
+        left: 0;
+    }
+    /* -------- Modal 2 and 3 -------- */
+    .modal-2 .modal-dialog,
+    .modal-3 .modal-dialog {
+        width: 96% !important;
+        left: 0;
+    }
+    .modal-2 .history-result tr .subject-panel,
+    .modal-3 .history-result tr .subject-panel {
+        padding: 10px 15px !important;
+        border-bottom: #ddd dashed 1px;
+        margin-bottom: 10px;
+    }
+    .modal-2 .modal-body,
+    .modal-3 .modal-body {
+        padding: 9px 8px 10px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /* -------- Modal 1 -------- */
+    .modal-1 .switch-field label {
+        width: 100%;
+    }
+    .modal-1 .email-subject-editor .contactList,
+    .modal-1 .email-body-editor .contactList {
+        text-transform: capitalize;
+    }
+    /* -------- Modal 2 and 3 -------- */
+    .modal-2 td,
+    .modal-3 td {
+        padding: 9px 0px 5px 43% !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /* -------- Modal 1 -------- */
+    .modal-1 .custom-variables .contactList li {
+        display: block;
+    }
+    .modal-1 .custom-variables .h-card {
+        display: block;
+        font-size: 13px;
+    }
+    .modal-1 .custom-variables .contactList {
+        padding: 5px 12px 12px;
+    }
+    .modal-1 .email-subject-editor,
+    .modal-1 .email-body-editor {
+        padding: 20px 10px;
+    }
+    /* -------- Modal 2 and 3 -------- */
+    .modal-2 td:before,
+    .modal-3 td:before {
+        left: 0 !important;
+    }
+    .modal-2 .subject-panel,
+    .modal-3 .subject-panel {
+        font-size: 14px !important;
+    }
+}
+
+.subject-panel p {
+    margin: -20px 0 0px 20px !important;
+}

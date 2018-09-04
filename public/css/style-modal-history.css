@@ -1,0 +1,183 @@
+
+
+/* ------------- Styles Modal History ------------- */
+
+
+#savedSearchEditHistoryModal .history-result {
+	border: #ddd solid 1px;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	padding: 0;
+}
+
+#savedSearchEditHistoryModal .modal-body {
+    padding: 30px 22px 10px;
+}
+
+#savedSearchEditHistoryModal  .modal-content {
+	margin-right: 10px;
+}
+
+.history-result .table>thead>tr>th {
+	font-size: 14px;
+	background: #F5F7F9;
+	border-bottom: 0;
+}
+
+.history-result .panel-group {
+    margin-bottom: 0;
+}
+
+.history-result tr {
+	background: #f7f7f7;
+}
+
+.history-result .panel-heading, .history-result .panel-body {
+    padding: 10px 15px 10px 6px;
+}
+
+.history-result .accordion .panel-title {
+	font-size: 15px;
+    font-weight: 400;
+}
+
+.history-result .accordion .panel-default {
+    border-color: transparent;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.history-result .accordion .panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f500;
+    border-color: #ddd0;
+}
+
+.hidden-panel {
+	padding: 0 !important;
+}
+
+.hidden-panel .panel-collapse .panel-body {
+	padding: 22px;
+    background: #fff;
+}
+
+.history-result span.glyphicon-minus, .history-result .accordion a[aria-expanded="false"] span.glyphicon-minus,
+.history-result .accordion a[aria-expanded="true"] span.glyphicon-plus
+{
+    display: none;
+	text-decoration: none !important;
+}
+
+.history-result .accordion a[aria-expanded="true"] span.glyphicon-minus,
+.history-result .accordion a[aria-expanded="false"] span.glyphicon-plus
+{
+    display: inline;
+	text-decoration: none !important;
+}
+
+.history-result .accordion .glyphicon {
+	top: -1px;
+	font-size: 8px;
+    border: #353535 solid 1px;
+    padding: 1px 1px;
+    text-decoration: none !important;
+    right: 2px;
+	color: #404f6a;
+}
+
+.history-result .accordion a:focus {
+	text-decoration: none !important;
+}
+
+.history-result .load-more-btn {
+    display: block;
+    margin: -10px auto 9px;
+    background: #e7993c;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#savedSearchEditHistoryModal .modal-footer {
+	text-align: center;
+	padding: 7px 7px 13px;
+	border-top: none;
+}
+
+#savedSearchEditHistoryModal .modal-footer .close-btn {
+	display: block;
+    margin: 0 auto;
+    background: #ddd;
+    border: none;
+    padding: 8px 20px;
+    color: #5d5d5d;
+    font-family: Roboto;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#savedSearchEditHistoryModal .modal-dialog::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #424f6ac7;
+	border-radius: 50px;
+}
+#savedSearchEditHistoryModal .modal-dialog::-webkit-scrollbar {
+	width: 6px;
+	background-color: #ffffff59;
+	border-radius: 50px;
+}
+#savedSearchEditHistoryModal .modal-dialog::-webkit-scrollbar-thumb {
+	background-color: #e7e7e7;
+	border-radius: 50px;
+}
+
+.history-result .accordion .panel-default>.panel-heading+.panel-collapse>.panel-body::-webkit-scrollbar-track {
+	background-color: #ddd;
+	border-radius: 50px;
+}
+.history-result .accordion .panel-default>.panel-heading+.panel-collapse>.panel-body::-webkit-scrollbar {
+	width: 6px;
+	background-color: #fff;
+	border-radius: 50px;
+}
+.history-result .accordion .panel-default>.panel-heading+.panel-collapse>.panel-body::-webkit-scrollbar-thumb {
+	background-color: #424F6A;
+	border-radius: 50px;
+}
+
+
+
+/* ----------------- Media Query ----------------- */
+
+@media only screen and (max-width: 480px) {
+	#savedSearchEditHistoryModal .modal-dialog {
+		width: 100%;
+	}
+	.history-result td:nth-of-type(1):before { content: ""; }
+	.history-result td:nth-of-type(2):before { content: "Time Sent"; }
+	.history-result td:nth-of-type(3):before { content: "Job Title"; }
+	.history-result td:nth-of-type(4):before { content: "Hiring Manager"; }
+	.history-result td:nth-of-type(5):before { content: "Company"; }
+	.history-result td:nth-of-type(6):before { content: "Actions"; }
+	
+	.history-result tr .hidden-panel {
+		padding: 0 !important;
+		border: none;
+		margin-bottom: -1px;
+	}
+	
+	.history-result tr .subject-panel {
+		padding: 3px 0 3px 14px !important;
+	}	
+	
+}
+
+
+
+

@@ -1,0 +1,154 @@
+
+
+/* ------------- Media Queries ------------- */
+
+	@media only screen and (max-width : 1024px) {
+		.side-icon {
+			width: 32px;
+		}
+		.sidebar ul {
+			padding-left: 20px;
+		}
+		.sidebar a {
+			font-size: 12px;
+		}
+		.job-type-checkboxes, .location-checkboxes, .intel-checkboxes {
+			padding: 0;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+	
+	@media only screen and (max-width : 980px) {
+		.side-icon {
+			width: 40px;
+		}
+		.sidebar a {
+			font-size: 16px;
+		}
+		#content-section1 .col-xs-3 {
+			width: 20%;
+		}
+	}
+	
+	@media only screen and (max-width : 680px) {
+		.toplogo, .topmenu {
+			text-align: center;
+		}
+		.top-logo {
+			margin-bottom: 10px;
+			margin-top: 15px;
+		}
+		.dropdown-menu li a {
+			font-size: 16px;
+			font-weight: 300;
+			padding: 10px !important;
+			margin-left: 20px;
+		}
+		.dropdown-menu li a:hover {
+			background: transparent;
+		}
+	}
+	
+	@media only screen and (max-width : 480px) {
+		.search-table-section .table th {
+			font-size: 15px;
+			vertical-align: middle;
+		}
+		#content-section1 .col-xs-3 {
+			width: 19%;
+		}
+		.title-2 {
+			font-size: 11px;
+			text-transform: capitalize;
+			padding: 0;
+		}
+		.report-type {
+			padding: 25px 20px 30px;
+		}
+	}
+	
+	@media only screen and (max-width : 375px) {
+		.search-table-section {
+			padding: 0;
+		}
+	}
+	
+	@media only screen and (max-width : 320px) {
+		.search-table-section table td {
+			font-size: 11px;
+		}
+	}
+	
+
+/* ------------- Table Mobile ------------- */
+	
+	@media only screen and (max-width: 800px) {
+		
+		.sidebar ul {
+			padding: 0;
+		}
+	
+		table, thead, tbody, th, td, tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+		tr { border-bottom: 1px solid #ccc; }
+		
+		tr td:first-child {
+			padding-top: 19px !important;
+		}
+		
+		tr td:last-child {
+			padding-bottom: 20px !important;
+		}
+		
+		tr td:first-child:before {
+			padding-top: 10px !important;
+		}
+		
+		.search-table-section td {
+			border-bottom: none;
+		}
+		
+		td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: none;
+			position: relative;
+			padding: 5px 0px 5px 50% !important;
+		}
+
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 5px;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			font-weight: 400;
+			white-space: nowrap;
+		}
+
+		/*
+		Label the data
+		*/
+		td:nth-of-type(1):before { content: "Job Title"; }
+		td:nth-of-type(2):before { content: "Company"; }
+		td:nth-of-type(3):before { content: "Location"; }
+		td:nth-of-type(4):before { content: "Hiring Manager"; }
+		td:nth-of-type(5):before { content: "Date Opened"; }
+		td:nth-of-type(6):before { content: "Actions"; }
+		
+		.search-table-section {
+			padding: 35px 20px 20px 20px;
+		}
+}

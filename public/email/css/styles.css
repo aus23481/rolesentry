@@ -1,0 +1,280 @@
+
+html{
+   width: 100%; 
+}
+
+body{
+ width: 100%;  
+ margin:auto !important; 
+ padding:0; 
+ -webkit-font-smoothing: antialiased;
+ mso-margin-top-alt:0px; 
+ mso-margin-bottom-alt:0px; 
+ mso-padding-alt: 0px 0px 0px 0px;
+ background: #E7E7E7;
+}
+
+p,h1,h2,h3,h4{
+ margin-top:0;
+ margin-bottom:0;
+ padding-top:0;
+ padding-bottom:0;
+}
+
+table{
+ font-size: 14px;
+ border: 0;
+}
+tbody td{
+}
+
+tbody tr:nth-child(odd) .colorrows{
+  background-color: #4C8BF5;
+  color: #fff;
+}
+img{
+ border: none!important;
+}
+
+
+
+/* ----------- Custom CSS Design ----------- */
+
+body {
+	overflow-x: hidden;
+	background: url('../images/blackmamba.png') repeat fixed;
+}
+
+.main-title {
+	padding: 200px 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main-title h2 {
+	font-size: 3.3rem;
+    font-weight: 100;
+}
+
+.main-title .date {
+	font-size: 20px;
+    color: #2BB061;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.company-logo {
+	width: 50px;
+	height: auto;
+	border: 1px #ddd solid !important;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.city-name {
+	padding:10px;display: block; width: 100%; color: #fff; font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 28px; font-weight: 700; text-decoration:none; letter-spacing:1px; text-transform:uppercase;
+}
+
+.city-name h3 {
+	font-size: 23px;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+}
+
+.city-name-container {
+	background: #1c2027;
+}
+
+.type-title {
+	display: block; 
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif; 
+	font-size: 28px; 
+	font-weight: 700; 
+	color:#2b3647; 
+	text-align:left;text-decoration:none; 
+	letter-spacing:1px; 
+	text-transform:uppercase;
+	background: #f3f3f3;
+}
+
+.type-title h3 {
+	font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    background: #2BB061;
+    display: inline-block;
+    padding: 10px 10px 10px 20px;
+    letter-spacing: 1px;
+}
+
+.company-name {
+	padding:15px;display:inline-block;width:215px;
+	margin-bottom: -20px;
+}
+
+.list-item {
+	padding: 0 0 17px 0;
+	color: #414d5f; 
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif; 
+	font-size: 18px; 
+	font-weight: 300; 
+	letter-spacing:.5px; 
+	text-align:left;    
+	border-bottom: 0.5px solid #e8e8e8;
+	vertical-align: middle;
+}
+
+.position, .manager-name {
+	padding:15px;display:inline-block;width:400px;
+}
+
+.time-posted {
+	padding:15px;display:inline-block;width:170px;
+}
+
+.top-header {
+	background: rgba(106,184,204,1);
+	background: -moz-linear-gradient(left, rgba(106,184,204,1) 0%, rgba(108,70,166,1) 51%, rgba(55,53,148,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(106,184,204,1)), color-stop(51%, rgba(108,70,166,1)), color-stop(100%, rgba(55,53,148,1)));
+	background: -webkit-linear-gradient(left, rgba(106,184,204,1) 0%, rgba(108,70,166,1) 51%, rgba(55,53,148,1) 100%);
+	background: -o-linear-gradient(left, rgba(106,184,204,1) 0%, rgba(108,70,166,1) 51%, rgba(55,53,148,1) 100%);
+	background: -ms-linear-gradient(left, rgba(106,184,204,1) 0%, rgba(108,70,166,1) 51%, rgba(55,53,148,1) 100%);
+	background: linear-gradient(to right, rgba(106,184,204,1) 0%, rgba(108,70,166,1) 51%, rgba(55,53,148,1) 100%);
+}
+
+.footer-container {
+	border-collapse:collapse; 
+	mso-table-lspace:0pt; 
+	mso-table-rspace:0pt; 
+	text-align:center;
+	background: rgb(41, 37, 97);
+}
+
+.footer-text {
+	padding: 30px;
+}
+
+.footer-text td {
+	line-height: 18px;
+    color: #ffffffb5;
+    font-family: Open Sans;
+    letter-spacing: inherit;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 18px;
+}
+
+.footer-text a {
+	color: #38bddc;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 42px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 30px solid #2bb060;
+    display: inline-block;
+    margin-bottom: -15px;
+}
+
+.time-icon {
+	margin-bottom: -4px;
+}
+
+.linkedin-icon {
+	width: 27px;
+	margin-bottom: -9px;
+}
+
+.follow-section {
+	background: #f3f3f3;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.follow-section span {
+	font-size: 14px;
+    color: #757575;
+    font-family: Montserrat;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.position a {
+	text-decoration: none;
+    color: #319ae8;
+    font-weight: 600;
+}
+
+.position a:hover {
+	color: orange;
+}
+
+/* ----------- Effects CSS ----------- */
+
+.shake:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.pop:hover{
+  animation: pop 0.3s linear 1;
+}
+
+@keyframes pop{
+  50%  {transform: scale(1.2);}
+}
+
+
+/* ----------- Responsive CSS ----------- */
+
+
+@media only screen and (max-width: 800px) {
+	body[yahoo] .quote_full_width {width:100% !important;}
+	body[yahoo] .quote_content_width {width:90% !important;}
+	.main-title h2 {
+    font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	body[yahoo] .full_width {width:100% !important;}
+	body[yahoo] .content_width{width:100% !important;}
+	body[yahoo] .center_txt {text-align: center!important;}
+	body[yahoo] .post_sep {width:100% !important; height:60px !important;}
+	body[yahoo] .gal_sep {width:100% !important; height:40px !important;}
+	body[yahoo] .gal_img {width:100% !important;}
+	body[yahoo] .bb_space {height:90px !important;}
+}  

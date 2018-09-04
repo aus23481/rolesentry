@@ -1,0 +1,492 @@
+.email-page .row {
+    margin: 0;
+}
+
+.email-page .mainbar {
+    padding: 25px 25px 30px 25px;
+}
+
+.email-page .search-table-section {
+    padding: 4px 0 1px;
+}
+
+.email-page .panel-group {
+    margin-bottom: 0;
+}
+
+.email-page .search-table-section tr {
+    background: #f3f3f3b8;
+}
+
+.email-page .search-table-section thead tr {
+    background: #fff;
+}
+
+.email-page .glyphicon-triangle-bottom {
+    font-size: 9px;
+}
+
+.email-page .dropdown-menu li a {
+    padding: 10px 17px;
+    font-family: Roboto;
+    border-bottom: #dddddd6e solid 1px;
+}
+
+.email-page .navbar-nav .dropdown-menu {
+    padding: 0;
+    margin-top: 11px !important;
+}
+
+.email-page .sidebar .notif-title,
+.email-page .sidebar .notif-btns {
+    padding-left: 0;
+}
+
+
+/*
+.email-page .sidebar #favorites {
+    padding: 0 5px 0 0;
+}
+*/
+
+.email-page .sidebar #favorites {
+    padding: 0px 18px 5px 0;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.email-page .search-table-section .table th {
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.email-page .search-table-section td {
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+
+/*.email-page .searchboxlist h4 {
+    font-weight: 300;
+    font-size: 19px;
+    background: none;
+    font-family: Roboto;
+    border-bottom: #e0e0e040 dashed 1px;
+    padding: 5px 2px;
+}
+
+
+
+.email-page .searchboxlist #custom-search-input {
+    padding: 0 0 0 9px;
+    border: #ffffff38 solid 1px;
+    border-radius: 4px;
+}*/
+
+.email-page .searchboxlist h4 {
+    background: #6e7b92;
+    border-radius: 3px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 25px;
+    padding: 7px 12px;
+}
+
+.email-page .searchboxlist #custom-search-input {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    margin-right: 0;
+    padding: 0;
+    border: medium none;
+    border-bottom: #ffffff38 solid 1px;
+}
+
+.email-page .searchboxlist #custom-search-input .glyphicon-search {
+    color: #ffffffad;
+}
+
+
+/*
+.email-page .sidebar-btn {
+    margin-top: -30px;
+}
+*/
+
+.email-page .sidebar {
+    width: 17.9%;
+}
+
+.email-page .sidebar-btn {
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    margin-top: -6px;
+    padding-right: 0px;
+}
+
+.submenu-1a {
+    background: #fff;
+}
+
+.submenu-1b {
+    background: #e0eafd;
+}
+
+.email-page .search-table-section .btn {
+    background-color: #62769e;
+    color: #d3def3;
+    text-transform: uppercase;
+    font-size: 11px;
+    border-radius: 0 !important;
+    margin-top: 2px;
+    margin-bottom: 2px
+}
+
+.note-tag {
+    background: #e8ecf3 !important;
+}
+
+.note-tag .btn {
+    background: #e7993c !important;
+    color: #fff !important;
+}
+
+#personal-info-section {
+    background: #fff;
+    margin: 0 15px 20px;
+    border-radius: 8px;
+    padding: 0px 0px 27px;
+    -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.21);
+}
+
+#personal-info-section h2 {
+    margin-top: 0;
+    font-family: Roboto;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #404f6a;
+    border-bottom: #ddd dashed 1px;
+}
+
+#personal-info-section h3 {
+    background: #F5F7F9;
+    padding: 10px 21px 11px 16px;
+    font-size: 15px;
+    border-bottom: #e4e4e4 solid 1px;
+    color: #404f6a;
+    font-family: Roboto;
+    border-radius: 8px 8px 0 0;
+}
+
+#personal-info-section p {
+    font-size: 15px;
+    font-family: Roboto;
+    margin-bottom: 5px;
+    color: #484848;
+}
+
+#personal-info-section .glyphicon {
+    color: #8e8e8e;
+    top: -2px;
+}
+
+#personal-info-section .dropdown-menu {
+    margin-top: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#personal-info-section #reset-check-1:hover {
+    background: none;
+    color: #555;
+}
+
+.info-container {
+    padding: 15px 13px 3px;
+}
+
+#checkbox-filter {
+    padding: 12px 10px 0px;
+    background: #ffffff42;
+    margin: 0 15px 18px;
+    border-radius: 5px;
+}
+
+#checkbox-filter .check-container {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.accordion .panel-title {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.accordion .panel-default {
+    border-color: transparent;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.accordion .panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f500;
+    border-color: #ddd0;
+}
+
+.accordion .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top: 1px dashed #ddd;
+}
+
+span.glyphicon-minus,
+.accordion a[aria-expanded="false"] span.glyphicon-minus,
+.accordion a[aria-expanded="true"] span.glyphicon-plus {
+    display: none;
+    text-decoration: none !important;
+}
+
+.accordion a[aria-expanded="true"] span.glyphicon-minus,
+.accordion a[aria-expanded="false"] span.glyphicon-plus {
+    display: inline;
+    text-decoration: none !important;
+}
+
+.accordion .glyphicon {
+    top: -1px;
+    font-size: 8px;
+    border: #353535 solid 1px;
+    padding: 1px 1px;
+    text-decoration: none !important;
+    right: 2px;
+    color: #404f6a;
+}
+
+.accordion a:focus {
+    text-decoration: none !important;
+}
+
+.show-all-btn {
+    display: block;
+    margin: -10px auto 9px;
+    background: #e7993c;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.show-all-btn:hover {
+    background: #da9139;
+}
+
+#personal-info-section .dropdown-toggle:focus,
+#personal-info-section .dropdown-toggle:active {
+    background: none;
+}
+
+
+/* -- Media Queries -- */
+
+@media only screen and (max-width: 1024px) {
+    .email-page #header-section .navbar-nav>li>a {
+        font-size: 12px;
+    }
+    .email-page td:nth-of-type(1):before {
+        content: "Message";
+    }
+    .email-page td:nth-of-type(2):before {
+        content: "Time";
+    }
+    .email-page td:nth-of-type(3):before {
+        content: "Inbound/Outbound";
+    }
+    .email-page td:nth-of-type(4):before {
+        content: "Prospecting Type";
+    }
+    .email-page td:nth-of-type(5):before {
+        content: "";
+    }
+    #table_prospect_result td {
+        border-top: none;
+        padding: 0 0px 5px 30% !important;
+    }
+    .email-page .search-table-section tr {
+        background: #ffffff;
+    }
+    .email-page .mainbar {
+        padding: 20px 25px 30px 25px;
+    }
+    #table_prospect_result tr>td:first-child {
+        padding-top: 20px !important;
+    }
+    #table_prospect_result tr>td:last-child {
+        padding-bottom: 25px !important;
+    }
+    #table_prospect_result td:before {
+        top: 20px;
+    }
+    .accordion .panel-default>.panel-heading {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .email-page .mainbar {
+        float: none !important;
+    }
+    .email-page .search-table-section tr {
+        background: #ffffffb8;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .email-page .mainbar {
+        padding-top: 0 !important;
+    }
+    .email-page .mainbar {
+        padding: 16px 5px 30px 5px;
+    }
+    #checkbox-filter:before {
+        content: "Search Filter";
+        background: #F5F7F9;
+        padding: 10px 21px 8px 16px;
+        font-size: 15px;
+        border-bottom: #e4e4e4 solid 1px;
+        color: #404f6a;
+        font-family: Roboto;
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        display: block;
+        margin-top: -13px;
+        margin-bottom: 12px;
+        font-weight: 500;
+    }
+    #checkbox-filter {
+        padding: 12px 0px 0px;
+    }
+    #checkbox-filter .text-right {
+        text-align: left;
+        padding: 0;
+    }
+    #checkbox-filter .check-container {
+        display: block;
+        padding-left: 14px;
+        border-bottom: #ddd solid 1px;
+        padding: 2px 0 8px 35px;
+    }
+    #checkbox-filter .check-container:last-child {
+        border-bottom: none;
+    }
+    #checkbox-filter .checkmark {
+        left: 35px;
+        top: 3px;
+    }
+    .email-page .search-table-section tr {
+        background: #ffffff;
+    }
+    #personal-info-section .dropdown-menu {
+        margin-left: -134px;
+    }
+    .email-page .navbar-nav .dropdown-menu {
+        margin-top: 0 !important;
+        text-align: center;
+    }
+    .email-page .navbar-nav .dropdown-menu li a {
+        padding: 10px 0;
+    }
+    #personal-info-section h2 {
+        font-size: 25px;
+    }
+    #table_prospect_result td {
+        padding: 0 0px 5px 50% !important;
+    }
+    #table_prospect_result tr>td:first-child {
+        padding: 10px 0px 20px 20px !important;
+    }
+    #table_prospect_result tr>td:last-child {
+        padding-bottom: 30px !important;
+    }
+    #table_prospect_result td:before {
+        top: 0px;
+    }
+    .email-page td:nth-of-type(1):before {
+        content: "";
+        top: 25px !important;
+        font-size: 16px;
+    }
+    .email-page td:nth-of-type(2):before {
+        font-size: 15px;
+    }
+    .email-page td:nth-of-type(3):before {
+        font-size: 15px;
+    }
+    .email-page td:nth-of-type(4):before {
+        font-size: 15px;
+    }
+    .email-page .accordion {
+        margin-top: 15px;
+    }
+    .email-page .accordion {
+        width: 95%;
+        border-bottom: #becae4 dashed 1px;
+        padding-bottom: 13px;
+    }
+    .email-page .search-table-section {
+        padding: 5px 0 !important;
+        background: #fff;
+    }
+    .show-all-btn {
+        margin: -10px 10px 9px;
+        width: 94%;
+    }
+    #table_prospect_result tr {
+        border-color: #969696;
+    }
+    #checkbox-filter,
+    .email-page .search-table-section {
+        background: #ffffff;
+        -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.21);
+        -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.21);
+        box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.21);
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .email-page td:nth-of-type(2):before {
+        font-size: 13px;
+    }
+    .email-page td:nth-of-type(3):before {
+        font-size: 13px;
+    }
+    .email-page td:nth-of-type(4):before {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #personal-info-section p {
+        font-size: 13px;
+    }
+    #table_prospect_result td {
+        padding: 0 0px 5px 60% !important;
+    }
+    .email-page .search-table-section .btn {
+        white-space: normal;
+        width: 85%;
+        line-height: 1;
+        padding: 4px 5px;
+    }
+}

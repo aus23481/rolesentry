@@ -1,0 +1,100 @@
+
+
+.mainbar {
+	background: none !important;
+}
+
+/* --------------- Invite Colleague --------------- */
+
+.modal-header {
+	padding: 12px 15px 10px 20px;
+    background: #F5F7F9;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-title {
+	font-family: Roboto;
+    font-size: 20px;
+    color: #404f6a;
+}
+
+.modal-body {
+	padding: 25px 30px 15px;
+}
+
+.modal-content {
+    -webkit-box-shadow: 1px 2px 3px -1px rgba(0,0,0,0.21);
+    -moz-box-shadow: 1px 2px 3px -1px rgba(0,0,0,0.21);
+    box-shadow: 1px 2px 3px -1px rgba(0,0,0,0.21);
+}
+
+.modal-content .form-group {
+    margin-bottom: 11px;
+    font-family: Roboto;
+}
+
+.modal-content .form-group b {
+	margin-bottom: 5px;
+    display: inline-block;
+}
+
+.modal-content .form-control {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.modal-content textarea.form-control {
+    height: 150px;
+}
+
+.modal-content .close {
+	font-size: 28px;
+	color: #808080;
+	opacity: 1;
+}
+
+.modal-content .close:hover {
+	color: #E79A40;
+}
+
+.modal-content .send-btn {
+	color: #fff;
+    padding: 10px 20px;
+    font-size: 17px;
+	background-color: #f7a842;
+    border-color: #f7a842;
+}
+
+.modal-content .send-btn:hover {
+	background-color: #F1903C;
+	border-color: #F1903C;
+}
+
+
+/* --------------- Invoice Colleague --------------- */
+
+.invoice-modal-logo {
+	width: 230px;
+	margin-top: 35px;
+    margin-bottom: 25px;
+    margin-left: -2px;
+}
+
+#platformInvoiceModal .modal-body {
+    padding: 25px 30px 10px;
+}
+
+#platformInvoiceModal .modal-dialog {
+    width: 800px;
+}
+
+#platformInvoiceModal .panel-body {
+    padding: 0;
+}
+
+#platformInvoiceModal td {
+	font-family: Roboto;
+    font-size: 14px;
+	padding-bottom: 5px;
+}

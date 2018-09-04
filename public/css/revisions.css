@@ -1,0 +1,329 @@
+/* ------------ Platform Revisions ------------ */
+
+
+/* ------------ Scrollbar and Tour Button ------------ */
+
+.tour-btn {
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.tour-btn .btn {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 2px 9px;
+    border-radius: 3px;
+    background: #eca54f;
+    border-color: #eca44f;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tour-btn .btn:hover {
+    background: #d69443;
+    border-color: #d69443;
+}
+
+#favorites {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.sidebar {
+    padding-top: 62px;
+    height: 95vh;
+    padding-bottom: 100px;
+    padding-right: 10px;
+    width: 19%;
+    z-index: 99999;
+}
+
+#favorites::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #6d7a92;
+    border-radius: 50px;
+}
+
+#favorites::-webkit-scrollbar {
+    width: 5px;
+    background-color: #6d7a92;
+}
+
+#favorites::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+
+.sidebar-btn {
+    padding-right: 0;
+}
+
+
+/* ------------ Account Revisions ------------ */
+
+
+/* ------------ Back Button ------------ */
+
+.backtoplat-btn {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.backtoplat-btn a {
+    background: #adb4cc;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #414f6c;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.02);
+    -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.02);
+    box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.02);
+}
+
+
+/* ------------ Platform Revisions ------------ */
+
+
+/* ------------ Notifications Button ------------ */
+
+.notif-buttons {
+    padding-left: 20px;
+}
+
+.ntf-btn1,
+.ntf-btn2,
+.ntf-btn3 {
+    background: transparent;
+    padding: 8px 6px;
+    font-size: 11px !important;
+    border: #8a8a8a solid 1px !important;
+    border-radius: 3px;
+    color: #eff4ff !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+}
+
+.ntf-btn1:hover,
+.ntf-btn2:hover,
+.ntf-btn3:hover,
+.ntf-btn1:focus,
+.ntf-btn2:focus,
+.ntf-btn3:focus {
+    text-decoration: none;
+}
+
+.ntf-btn1 {
+    background: transparent url('../images/instant-img.png') no-repeat left !important;
+    padding-left: 38px;
+    background-position-x: 5px;
+}
+
+.ntf-btn1:hover {
+    background: #62769e url('../images/instant-img.png') no-repeat left !important;
+    padding-left: 38px;
+    background-position-x: 5px;
+}
+
+.ntf-btn2 {
+    background: transparent url('../images/daily-img.png') no-repeat left !important;
+    padding-left: 38px;
+    background-position-x: 5px;
+}
+
+.ntf-btn2:hover {
+    background: #62769e url('../images/daily-img.png') no-repeat left !important;
+    padding-left: 38px;
+    background-position-x: 5px;
+}
+
+.ntf-btn3 {
+    background: transparent url('../images/never-img.png') no-repeat left !important;
+    padding-left: 38px;
+    background-position-x: 5px;
+}
+
+.ntf-btn3:hover {
+    background: #62769e url('../images/never-img.png') no-repeat left !important;
+    padding-left: 38px;
+    background-position-x: 5px;
+}
+
+
+/* ------------ Platform Revisions ------------ */
+
+
+/* ------------ New Notifications Button ------------ */
+
+.notif-btns {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.notif-btns .btn {
+    background: transparent;
+    margin-right: 5px;
+    border-radius: 3px !important;
+    padding: 8px 6px;
+    font-size: 11px;
+    border: #607396 solid 1px;
+    color: #eff4ff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    font-family: Roboto;
+    margin-bottom: 5px;
+}
+
+.notif-btns .notif-btn1 {
+    background: transparent url('../images/instant-img.png') no-repeat left;
+    padding-left: 34px;
+    background-position-x: 5px;
+    background-size: 24px 24px !important;
+}
+
+.notif-btns .notif-btn1.active {
+    background: #62769e url('../images/instant-img.png') no-repeat left;
+    padding-left: 34px;
+    background-position-x: 5px;
+    background-size: 24px 24px !important;
+    color: #fff;
+    border-color: #62769e;
+}
+
+.notif-btns .notif-btn2 {
+    background: transparent url('../images/daily-img.png') no-repeat left;
+    padding-left: 34px;
+    background-position-x: 5px;
+    background-size: 24px 24px !important;
+}
+
+.notif-btns .notif-btn2.active {
+    background: #62769e url('../images/daily-img.png') no-repeat left;
+    padding-left: 34px;
+    background-position-x: 5px;
+    background-size: 24px 24px !important;
+    color: #fff;
+    border-color: #62769e;
+}
+
+.notif-btns .notif-btn3 {
+    background: transparent url('../images/never-img.png') no-repeat left;
+    padding-left: 34px;
+    background-position-x: 5px;
+    background-size: 24px 24px !important;
+}
+
+.notif-btns .notif-btn3.active {
+    background: #62769e url('../images/never-img.png') no-repeat left;
+    padding-left: 34px;
+    background-position-x: 5px;
+    background-size: 24px 24px !important;
+    color: #fff;
+    border-color: #62769e;
+}
+
+.notif-title {
+    font-family: Roboto;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+#favorites {
+    padding: 0 18px 0;
+}
+
+.sidebar {
+    padding-bottom: 135px;
+}
+
+@media (max-width: 1680px) {
+    .notif-btns .notif-btn1,
+    .notif-btns .notif-btn2,
+    .notif-btns .notif-btn3,
+    .notif-btns .notif-btn1.active,
+    .notif-btns .notif-btn2.active,
+    .notif-btns .notif-btn3.active {
+        padding-left: 29px;
+        background-position-x: 5px;
+        background-size: 20px 20px !important;
+        font-size: 10px;
+    }
+}
+
+
+/* ------------ Platform Revisions ------------ */
+
+
+/* ------------ Search Location Panel ------------ */
+
+.srchloc {
+    display: inline-block;
+    float: right;
+    background: #fff;
+    margin-top: -3px;
+    border-radius: 4px;
+    margin-right: 10px;
+    border: #ddd solid 1px;
+    overflow: hidden;
+}
+
+.srchloc input[type=text] {
+    border: none;
+    padding: 5px 8px;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.srchloc button {
+    background: no-repeat;
+    border: none;
+}
+
+.srchloc button .glyphicon {
+    font-size: 12px;
+    color: #bdbdbd;
+}
+
+.locpages {
+    padding-right: 20px;
+    margin-bottom: -25px;
+}
+
+.locpages li span,
+.locpages li a {
+    padding: 2px 7px;
+    background: #f1f1f1;
+    border: none;
+    margin: 0 1px;
+    border-radius: 50px;
+    color: #6e7c9a;
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+.locpages #prev span,
+.locpages #next a {
+    border-radius: 4px;
+}
+
+.locpages #next a {
+    background: #7e8ca9;
+    color: #fff;
+}
+
+.locpages .active span,
+.locpages .active span:hover {
+    margin-right: 1px;
+}

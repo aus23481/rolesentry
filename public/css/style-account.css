@@ -1,0 +1,181 @@
+#account-form-section {
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+#account-page,
+#login-page {
+    background: #D2D9E6 url('../images/fixed-bg.jpg') no-repeat top fixed;
+    background-size: auto auto;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#account-box {
+    background: #fff;
+    border-radius: 7px;
+    -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.21);
+    box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.21);
+}
+
+.account-box-container {
+    float: none;
+    margin: 0 auto;
+}
+
+#account-box h2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    color: #404f6a;
+    text-align: left;
+    padding: 12px 20px 12px;
+    border-bottom: #d2d2d2 solid 1px;
+    letter-spacing: 0.3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: #eff4f7;
+    border-radius: 8px 8px 0 0;
+}
+
+#reset-form {
+    font-size: 11px;
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: normal;
+    color: #616161;
+    padding: 13px 12px;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#reset-form:hover {
+    background: #68718B;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+#form-container {
+    padding: 20px 45px 25px;
+}
+
+#form-container h3 {
+    font-size: 17px;
+    font-family: Roboto;
+    margin-top: 18px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    background: #616b8c;
+    padding: 13px 17px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#form-container h3 span {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 0.5px;
+}
+
+#form-container label {
+    font-weight: bold;
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+#form-container .form-control {
+    margin-bottom: 28px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    font-family: Roboto;
+}
+
+#form-container .check-container {
+    padding-left: 22px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+#form-container .btn-primary {
+    margin: 0 auto;
+    background: #ea9b35;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 4px;
+    border-color: transparent;
+    letter-spacing: 0;
+}
+
+#form-container .btn-primary:hover {
+    background: #616b8c;
+}
+
+
+/* ---------- Footer ---------- */
+
+.footer-dark .copyright {
+    text-align: center;
+}
+
+
+/* ---------- Media Queries ---------- */
+
+@media only screen and (max-width: 980px) {
+    #account-form-section {
+        padding-top: 14%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    #account-form-section {
+        padding: 116px 20px 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #form-container {
+        padding: 12px 29px 12px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #account-box h2 {
+        font-size: 15px;
+    }
+    #form-container h3 span {
+        font-size: 13px;
+    }
+}
+
+
+/* ------------ Back Button ------------ */
+
+.backtoplat-btn {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.backtoplat-btn a {
+    background: #adb4cc;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #414f6c;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.02);
+    -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.02);
+    box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.02);
+}

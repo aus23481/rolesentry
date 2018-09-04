@@ -1,0 +1,58 @@
+
+/* -------------- Updated & Improved Platform Layout -------------- */
+
+.platform-page .row {
+    margin: 0;
+}
+
+.platform-page .mainbar {
+	padding: 47px 30px 40px 30px;
+}
+
+.platform-page .glyphicon-triangle-bottom {
+    font-size: 9px;
+}
+
+.platform-page .sidebar-btn {
+    margin-top: -30px;
+}
+
+.platform-page .sidebar .notif-title, .platform-page .sidebar .notif-btns {
+	padding-left: 0;
+}
+
+.platform-page .sidebar #favorites {
+    padding: 0 5px 0 0;
+}
+
+.platform-page .searchboxlist h4 {
+    font-weight: 300;
+    font-size: 19px;
+    background: none;
+    font-family: Roboto;
+    border-bottom: #e0e0e040 dashed 1px;
+    padding: 5px 2px;
+}
+
+.platform-page .searchboxlist #custom-search-input {
+    padding: 0 0 0 9px;
+    border: #ffffff38 solid 1px;
+    border-radius: 4px;
+}
+
+.platform-page .searchboxlist #custom-search-input .glyphicon-search {
+    color: #ffffffad;
+}
+
+.platform-page .navbar-nav .dropdown-menu {
+    padding: 0;
+    margin-top: 11px !important;
+}
+
+.platform-page .dropdown-menu li a {
+    padding: 10px 17px;
+    font-family: Roboto;
+    border-bottom: #dddddd6e solid 1px;
+}
+
+/* -------------- Media Queries -------------- */

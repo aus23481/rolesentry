@@ -1,0 +1,42 @@
+#form-section {
+	padding: 4% 0;
+	margin-bottom: 15%;
+}
+
+#form-section h2 {
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.btn-primary {
+	color: #fff;
+    background-color: #4AB268;
+    border-color: #4AB268;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding: 10px 24px;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+	background-color: #62429F;
+}
+
+.form-box {
+	background: #fff;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px 30px;
+}
+
+.form-box label {
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4b4b4b;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}

@@ -1,0 +1,133 @@
+
+#banner-section {
+    background: url(../images/top-banner-bg.jpg) no-repeat center;
+    padding: 50px 0;
+    /* background-position-y: -700px; */
+}
+
+#banner-section .logo {
+    width: 350px;
+	margin-bottom: 60px;
+    margin-top: 35px;
+}
+
+.four-box a:visited, .four-box a:active, .four-box a:link, .four-box a:hover {
+    background: none;
+    text-decoration: none;
+}
+.four-box a {
+    padding: 0 20px;
+    border: none;
+    color: #b7b7b7;
+}
+
+.four-box a:hover {
+	border: none;
+}
+
+.four-box img {
+    width: 50px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+	height: auto;
+    padding-top: 10px;
+}
+
+.four-box h3 {
+    font-family: Abel;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    margin-top: 10px;
+	text-align: left;
+}
+
+.newsletter-unsubscribe {
+    padding: 5% 0 7%;
+    text-align: center;
+    background: url(../images/why-us-background.jpg) no-repeat bottom fixed;
+    background-size: cover;
+}
+
+.newsletter-unsubscribe h2 {
+    color: #313131;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.newsletter-unsubscribe .form-control {
+	width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    color: #969696;
+    box-shadow: none;
+}
+
+.newsletter-unsubscribe textarea {
+	height: 130px;
+}
+
+.newsletter-unsubscribe .btn {
+	background: #eb9b36;
+    border-color: #eb9b36;
+    box-shadow: none;
+    font-family: Roboto;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 24px;
+    letter-spacing: 0.5px;
+}
+
+.newsletter-unsubscribe .btn:hover {
+	background: #344871;
+	border-color: #344871;
+}
+
+.footer-dark {
+	background-color: #1b1b1b;
+    padding: 20px 0;
+	color: #f0f9ff;
+}
+
+.footer-dark .copyright {
+    font-size: 14px;
+    font-family: Abel;
+    padding-top: 0;
+    text-align: center;
+	margin-bottom: 0;
+	color: #f0f9ff;
+	opacity: 0.6;
+}
+
+
+/* -----   media queries  ------ */
+
+
+@media (max-width: 480px) {
+	#banner-section .logo {
+		width: 225px;
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+	.four-box a {
+		width: 75%;
+	}
+	.newsletter-unsubscribe h2 {
+		font-size: 28px;
+	}
+	.newsletter-unsubscribe .container {
+		padding: 0 25px;
+	}
+}
+
+@media (max-width: 320px) {
+	.four-box a {
+		width: 100%;
+	}
+}

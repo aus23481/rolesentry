@@ -1,0 +1,320 @@
+body {
+    background: #2B2F33;
+    overflow-x: hidden;
+}
+
+#top-header {
+    padding: 7px 0;
+    background: #eff4f7;
+}
+
+.top-logo {
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 0;
+    width: 180px;
+    margin-top: 5px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.dropdown a {
+    color: #555;
+}
+
+.navbar-nav>li>a:hover {
+    background: transparent;
+    color: #E7993D;
+}
+
+.navbar-nav>li>a:focus {
+    background: transparent;
+}
+
+.user-name {
+    font-family: Abel;
+    font-size: 20px;
+}
+
+.footer-dark {
+    background-color: #1b1b1b;
+    padding: 20px 0;
+}
+
+.footer-dark .copyright {
+    font-size: 14px;
+    font-family: Abel;
+    padding-top: 0;
+    opacity: 0.6;
+}
+
+
+/* ---------------- Banner Section ---------------- */
+
+#banner-section {
+    background: url(../images/top-banner.jpg) no-repeat center;
+    /* background: #414f6d; */
+    padding: 50px 0;
+}
+
+#banner-section h2 {
+    font-size: 25px;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 100;
+    display: inline-block;
+}
+
+#banner-section img {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    cursor: pointer;
+}
+
+
+/* ---------------- Content CSS ---------------- */
+
+.sidebar {
+    padding-top: 30px;
+    background-color: #2B2F33;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.side-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.mainbar {
+    background: #eef4f7 url('https://recruiterintel.com/images/why-us-background.jpg') no-repeat bottom fixed;
+}
+
+.mainbar {
+    padding: 30px 50px;
+}
+
+.white-box {
+    background: #fff;
+    padding: 0px 25px 15px 25px;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+}
+
+.white-box h3 {
+    font-family: Montserrat;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #7384ab;
+}
+
+.white-box .checkbox label {
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.li-icon {
+    width: 22px;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.search-table-section .table th {
+    font-size: 16px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+.search-table-section .table td {
+    font-family: Roboto;
+    font-size: 13px;
+    color: #292929;
+}
+
+.search-table-section .pagination>li>a {
+    color: #717171;
+}
+
+.search-table-section .pagination>.active>a {
+    background-color: #d8dde6 !important;
+    border-color: #d8dde6 !important;
+    color: #9c9c9c;
+}
+
+.search-table-section .pagination>li>a:focus,
+.search-table-section .pagination>li>a:hover,
+.search-table-section .pagination>li>span:focus,
+.search-table-section .pagination>li>span:hover {
+    color: #ffffff;
+    background-color: #ddd;
+    border-color: #ddd;
+}
+
+.search-table-section .pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.search-table-section .pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    color: #ffffff;
+    background-color: #7385ab;
+    border-color: #7385ab;
+}
+
+
+/* ---------------- Search CSS ---------------- */
+
+.search-section {
+    padding: 23px 0;
+}
+
+#custom-search-input {
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input {
+    border: 0;
+    box-shadow: none;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+#custom-search-input button {
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search {
+    font-size: 15px;
+}
+
+
+/* ----------- Checkbox Style CSS ------------ */
+
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 2px;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    border-radius: 20px;
+    margin-left: -25px;
+    border: #ccc solid 1px;
+}
+
+.check-container:hover input~.checkmark {
+    background-color: #ccc;
+    border: #ccc solid 1px;
+}
+
+.check-container input:checked~.checkmark {
+    background-color: #4AB268;
+    border: transparent solid 1px;
+}
+
+.check-container input:checked~.checkmark:hover {
+    background-color: #3a8c51;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.check-container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* -----   media queries  ------ */
+
+@media (max-width: 960px) {
+    #top-header {
+        text-align: center;
+    }
+    .navbar-right {
+        float: none !important;
+        display: inline-block;
+    }
+    #banner-section {
+        text-align: center;
+    }
+    #banner-section h2 {
+        margin: 0;
+    }
+    .sidebar {
+        text-align: center;
+    }
+    .sidebar ul {
+        padding-left: 0;
+    }
+}

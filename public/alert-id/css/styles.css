@@ -1,0 +1,122 @@
+
+
+#top-header {
+	background: url('../images/top-header-bg.jpg') center;
+	padding: 50px 0;
+	background-position-y: -600px;
+}
+
+body {
+	background: url('../images/white-background.jpg') center;
+	background-size: cover;
+}
+
+.footer-dark {
+	background-color: #1b1b1b;
+}
+
+.content-section {
+	padding: 5% 0;
+}
+
+.company-logo {
+	width: 180px;
+	display: block;
+	margin-left: 40px;
+    margin-top: 20px;
+}
+
+.profile-pic {
+	width: 85px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.hm-name {
+	font-size: 24px;
+    font-family: Abel;
+    font-weight: 600;
+    margin-top: 20px;
+	padding-left: 20px;
+}
+
+.date-opened {
+	font-family: Abel;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.info-box {
+	padding-bottom: 40px;
+    background: #fff;
+	margin-bottom: 20px;
+	border-radius: 0 50px;
+	border: #dcdcdc solid 1px;
+}
+
+.info-box-title {
+	background: #3DB164;
+    color: #fff;
+    padding: 11px 10px 11px 25px;
+    display: inline-block;
+    margin: 0;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.linkedin-icon:active {
+    background: transparent;
+}
+
+.linkedin-icon img {
+	width: 50px;
+	margin-left: 10px;
+    margin-top: -10px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 42px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 30px solid #2bb060;
+    display: inline-block;
+    margin-bottom: -15px;
+}
+
+.text-desc {
+	padding: 0 20px
+}
+
+.text-desc h1 {
+	font-size: 52px;
+}
+
+.text-desc p {
+	font-size: 16px;
+    font-family: Open Sans;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.text-desc .button {
+	background: #6343A1;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.text-desc .button:hover {
+	background: #70B3CA
+}

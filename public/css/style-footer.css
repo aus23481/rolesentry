@@ -1,0 +1,41 @@
+
+/* ----------- Global Footer ----------- */
+
+.footer-dark {
+    background-color: #1b1b1b;
+    padding: 20px 0;
+}
+
+.footer-dark .copyright {
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding-top: 0;
+    opacity: 0.7;
+    text-align: center;
+    color: #d3dbe9;
+	margin-bottom: 0;
+}
+
+#platform-page .footer-dark .copyright {
+	text-align: right;
+	padding-right: 35px;
+}
+
+/* ----------- Media Queries ----------- */
+
+@media (max-width: 980px) {
+	#platform-page .footer-dark .copyright {
+		text-align: center;
+		padding: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	#account-page .footer-dark {
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+	}
+}

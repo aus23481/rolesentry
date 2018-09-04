@@ -1,0 +1,180 @@
+.mainbar {
+    background: #eef4f7 url('http://recruiterintel.com/images/why-us-background.jpg') no-repeat bottom fixed;
+}
+
+.top-logo {
+    margin-left: 20px;
+}
+
+.white-box {
+    padding: 1px 25px 15px 25px;
+    border: none;
+    -webkit-box-shadow: 2px 3px 16px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 2px 3px 16px -1px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 3px 16px -1px rgba(0, 0, 0, 0.21);
+}
+
+.checkbox-filter-section .col-md-3 {
+    padding: 0;
+    margin-left: 18px !important;
+    margin-top: 31px !important;
+}
+
+.search-table-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    -webkit-box-shadow: 2px 3px 16px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 2px 3px 16px -1px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 3px 16px -1px rgba(0, 0, 0, 0.21);
+}
+
+.check-container input:checked~.checkmark {
+    background-color: #ffb965;
+}
+
+.check-container input:checked~.checkmark:hover {
+    background-color: #D98E3A;
+}
+
+.search-table-section .pagination>li>a {
+    color: #bdbdbd;
+    border-radius: 50px;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: #bfc7d2;
+    border-color: transparent;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.search-table-section .pagination>li>a:focus,
+.search-table-section .pagination>li>a:hover,
+.search-table-section .pagination>li>span:focus,
+.search-table-section .pagination>li>span:hover {
+    border-radius: 50px;
+}
+
+#custom-search-input {
+    border: none;
+    -webkit-box-shadow: 2px 3px 16px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 2px 3px 16px -1px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 3px 16px -1px rgba(0, 0, 0, 0.21);
+}
+
+.search-section .col-md-4 {
+    padding: 0;
+}
+
+.white-box h3 {
+    font-size: 20px;
+    color: #414f6d;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.white-box .checkbox label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+
+.white-box {
+    padding: 10px 25px 30px 25px;
+    border-radius: 3px;
+    background: #F6F8F9;
+}
+
+#custom-search-input {
+    border-radius: 4px;
+}
+
+#custom-search-input .glyphicon-search {
+    font-size: 12px;
+    color: #9c9c9c;
+}
+
+.search-table-section .pagination>li:first-child>span,
+.search-table-section .pagination>li:last-child>a {
+    background-color: #7f8ca9;
+    border-color: #7f8ca9;
+    margin: 0 9px;
+    border-radius: 3px;
+}
+
+.search-table-section .pagination>li:first-child>span:hover,
+.search-table-section .pagination>li:last-child>a:hover {
+    background-color: #E7993D;
+    border-color: #E7993D;
+}
+
+.disabled>span {
+    background-color: #ddd !important;
+    border-color: #ddd !important;
+    color: #a5a5a5 !important;
+}
+
+.dropdown-menu {
+    width: 250px;
+}
+
+.dropdown-menu li a {
+    padding: 10px 20px;
+    color: #414f6c;
+    font-family: Roboto;
+}
+
+.dropdown-menu .glyphicon {
+    color: #7f8ca9;
+    margin-right: 8px;
+    top: 2px;
+    font-size: 14px;
+}
+
+.toplogo {
+    text-align: left;
+}
+
+.topmenu {
+    text-align: right;
+}
+
+.checkmark {
+    top: 0 !important;
+}
+
+.checkbox {
+    margin-bottom: 15px;
+}
+
+
+/* ------------------ Table Style ------------------ */
+
+.search-table-section table {
+    width: 100%;
+}
+
+.search-table-section th {
+    padding: 10px;
+    color: #ec9b36;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.search-table-section td {
+    padding: 15px 10px;
+    border-bottom: 1px #efefef solid;
+    font-family: Roboto;
+    color: #4b4d50;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+}

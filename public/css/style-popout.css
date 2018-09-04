@@ -1,0 +1,455 @@
+
+.form-dropdn-btn {
+	border: #fff solid 1px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: 5px;
+    display: inline-block;
+	cursor: pointer;
+}
+
+.nav-tabs {
+	border-bottom: transparent;
+	margin-top: -7px;
+}
+
+.nav-tabs.nav-justified {
+    width: 50%;
+    border-bottom: 0;
+    margin: 0 auto;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+	background: transparent;
+	color: #fff;
+}
+
+.nav>li>a {
+	padding: 3px;
+}
+
+.nav-tabs.nav-justified>li>a:hover, .nav-tabs.nav-justified>.active>a:hover {
+	background: #eb9b36;
+	border-color: #eb9b36 !important;
+	color: #fff;
+}
+
+#jobtypesbox .location-checkboxes, #locationsbox .loc-options {
+	background: #fff;
+    padding: 20px 30px;
+    height: 215px;
+    border-radius: 0 8px 8px 8px;
+    border: #ddd solid 1px;
+}
+
+#jobtypesbox .loc-options {
+	background: #fff;
+    padding: 20px 25px 20px 30px;
+    height: 215px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 0 8px 8px 8px;
+	border: #ddd solid 1px;
+}
+
+#jobtypesbox .location-checkboxes .checkbox label, #locationsbox .loc-options label {
+	font-size: 14px;
+    color: #2b2b2b;
+    font-weight: 500;
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+}
+
+#jobtypesbox .loc-options .checkbox label {
+	font-size: 14px;
+    color: #2b2b2b;
+    font-weight: 500;
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+}
+
+#jobtypesbox .loc-options .col-md-2 {
+    width: 18.7%;
+}
+
+.newsletter-subscribe form .form-control {
+	text-indent: 4px;
+    height: 45px;
+    margin: 0 1px;
+    min-width: 255px;
+	background: #fff;
+	font-family: Roboto;
+	border: #ddd solid 1px;
+}
+
+.newsletter-subscribe h4 {
+	color: #404f6a;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.form-inst {
+	background: #F5F7F9;
+    border-radius: 8px 8px 0 0;
+    padding: 11px 18px;
+}
+
+.form-inst .filter-dropdown {
+    margin-top: -2px;
+}
+
+.form-inst .dropdown-menu {
+	margin-top: 7px !important;
+}
+
+.form-inst .dropdown-menu span {
+	padding: 7px 10px;
+    display: inline-block;
+    width: 100%;
+	cursor: pointer;
+}
+
+.form-inst .dropdown-menu span:hover {
+	background: #68718B;
+	color: #fff;
+	border-radius: 0 0 8px 8px;
+}
+
+.formsubox {
+	padding: 5px 20px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li>a {
+	background-color: #eff1f4;
+	color: #555;
+    cursor: default;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    padding: 4px 12px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.nav-tabs>li.active>a {
+	background-color: #fff;
+}
+
+.nav-tabs>li.active>a:hover, .nav-tabs>li>a:hover {
+	background-color: #eb9b36;
+	border-color: #eb9b36;
+	border-bottom: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+#locationsbox .loc-options .row {
+	overflow-y: auto;
+	height: 160px;
+    margin-right: -7px;
+}
+
+#locationsbox .loc-options .row::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+	background-color: #F7f7f7;
+	border-radius: 10px;
+}
+
+#locationsbox .loc-options .row::-webkit-scrollbar {
+	width: 6px;
+	background-color: #F5F5F5;
+	
+}
+
+#locationsbox .loc-options .row::-webkit-scrollbar-thumb {
+	background-color: #404f6a;
+	border-radius: 10px;
+}
+
+.formbox {
+	background: #fff;
+	border-radius: 8px;
+	height: 330px;
+}
+ 
+#subsform #btn-form-submit {
+	text-align: center;
+}
+
+/* ----------- Checkbox Style CSS ------------ */
+
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 2px;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    border-radius: 20px;
+    margin-left: -25px;
+    border: #ccc solid 1px;
+}
+
+.check-container:hover input~.checkmark {
+    background-color: #ccc;
+    border: #ccc solid 1px;
+}
+
+.check-container input:checked~.checkmark {
+    background-color: #eb9b36;
+    border: transparent solid 1px;
+}
+
+.check-container input:checked~.checkmark:hover {
+    background-color: #eb9b36;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.check-container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#cboxTopCenter {
+	background: url('../images/border.png') 0 0 repeat-x !important;
+}
+#cboxMiddleLeft {
+	background: url('../images/controls.png') left top repeat-y !important;
+}
+#cboxMiddleRight {
+	background: url('../images/controls.png') right top repeat-y !important;
+}
+#cboxBottomCenter {
+	background: url('../images/border.png') 0 -29px repeat-x !important;
+}
+#cboxTopLeft {
+	background: url('../images/controls.png') no-repeat -101px 0 !important;
+}
+#cboxTopRight {
+	background: url('../images/controls.png') no-repeat -130px 0 !important;
+}
+#cboxBottomLeft {
+	background: url('../images/controls.png') no-repeat -101px -29px !important;
+}
+#cboxBottomRight {
+	background: url('../images/controls.png') no-repeat -130px -29px !important;
+}
+#cboxClose {
+	background: url('../images/controls.png') no-repeat -25px 0 !important;
+}
+#cboxClose:hover{
+	background: url('../images/controls.png') no-repeat -25px -25px !important;
+}
+
+#togglecheck1, #togglecheck2, #togglecheck3, #togglecheck4, #togglecheck5, #togglecheck6 {
+    display: none;
+}
+
+.togglechecktxt1a, .togglechecktxt2a, .togglechecktxt3a, .togglechecktxt4a, .togglechecktxt5a, .togglechecktxt6a {
+    background: url(../images/down-arrow-drk.png) no-repeat !important;
+    display: block;
+    content: 'sdfds';
+    width: 10px;
+    height: 8px;
+    float: right;
+    margin-top: 6px;
+}
+
+.togglechecktxt1b, .togglechecktxt2b, .togglechecktxt3b, .togglechecktxt4b, .togglechecktxt5b, .togglechecktxt6b {
+    background: url(../images/up-arrow-drk.png) no-repeat !important;
+    display: block;
+    content: 'sdfds';
+    width: 10px;
+    height: 8px;
+    float: right;
+    margin-top: 6px;
+}
+
+.togglecheck-subnav {
+	position: absolute;
+    background: #f5f7f9;
+    z-index: 999;
+    width: 105%;
+    border: #ddd solid 1px;
+    padding: 12px 17px;
+    margin-left: -6px;
+    margin-top: 6px;
+    border-top: #ddd dashed 1px;
+    border-radius: 0 0 8px 8px;
+}
+
+.togglecheck-subnav .checkmark {
+	background: #fff;
+}
+
+.togglecheck-subnav .check-container {
+	margin-bottom: 3px;
+}
+
+/* ----------------- Media Queries ----------------- */
+
+@media only screen and (max-width: 1440px) {
+	.newsletter-subscribe .container {
+		width: 100%;
+	}
+	.newsletter-subscribe form .form-control {
+		min-width: 235px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.newsletter-subscribe form .form-control {
+		min-width: 383px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	#jobtypesbox .loc-options .col-md-2 {
+		width: 45%;
+		float: left;
+	}
+	.newsletter-subscribe form .form-control {
+		min-width: 100%;
+		width: 100%;
+		display: block;
+	}
+	.form-inline .form-group {
+		display: block;
+		margin-bottom: 8px;
+	}
+	.newsletter-subscribe textarea {
+		margin-bottom: 25px !important;
+	}
+	.newsletter-subscribe {
+		padding: 37px 0 0;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.newsletter-subscribe h2 {
+		font-size: 29px;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	#jobtypesbox .location-checkboxes {
+		width: 100%;
+	}
+	#jobtypesbox .loc-options .col-md-2 {
+		width: 100% !important;
+	}
+	#jobtypesbox .loc-options .checkbox label {
+		font-size: 16px;
+	}
+	#cboxLoadedContent {
+		overflow-x: hidden !important;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.newsletter-subscribe .container, .form-group.md-col-12 {
+		padding: 0 !important;
+	}
+	#subsform textarea {
+		padding: 15px 13px !important;
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li>a {
+		padding: 7px 18px;
+		font-size: 16px;
+	}
+	#btn-form-submit {
+		padding: 25px 16px 0 !important;
+	}
+	#jobtypesbox .location-checkboxes {
+		padding: 20px 30px;
+	}
+	#jobtypesbox .loc-options {
+		padding: 20px 25px 20px 30px;
+	}
+	#jobtypesbox .loc-options .checkbox label {
+		font-size: 14px;
+	}
+	.newsletter-subscribe h4 {
+		font-size: 14px;
+	}
+	.form-inst .filter-dropdown {
+		float: right;
+		margin-right: -17px;
+	}
+	.formbox {
+		height: auto;
+	}
+	.formsubox {
+		padding: 10px 12px;
+	}
+	.tab-content {
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.newsletter-subscribe h2 {
+		font-size: 27px;
+	}
+	.newsletter-subscribe p {
+		font-size: 14px;
+		padding-left: 0 !important;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.newsletter-subscribe form .form-control {
+		min-width: auto !important;
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li>a {
+		padding: 10px 13px;
+		font-size: 14px;
+	}
+	.newsletter-subscribe form .btn-primary {
+		font-size: 15px;
+		letter-spacing: 0;
+	}
+}

@@ -1,0 +1,48 @@
+
+/* ------------------ Static Contact Section ------------------ */
+
+#contact-section {
+	background: #eff3f7 url('../images/fixed-bg.jpg') no-repeat fixed;
+	padding: 50px 0;
+}
+
+.contact-content {
+	text-align: center;
+	color: #fff;
+}
+
+.contact-content h4 {
+	font-size: 30px;
+    font-weight: 400;
+}
+
+.contact-content p {
+	font-size: 17px;
+    font-weight: 300;
+	margin-bottom: 35px;
+}
+
+.contact-content .orange-line {
+	margin: 17px 0 7px;
+}
+
+.contact-content .form-control {
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px 13px;
+    height: auto;
+}
+
+.contact-content textarea {
+	height: 100px !important;
+}
+
+.contact-content .btn {
+	background: #ec9b36;
+    border: none;
+    color: #fff;
+    padding: 6px 30px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}

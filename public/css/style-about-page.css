@@ -1,0 +1,152 @@
+
+/* ------------------ About Page Style ------------------ */
+
+#about-page h1, #about-page h2, #about-page h3, #about-page h4 {
+	margin: 0;
+}
+
+#about-page {
+	overflow-x: hidden;
+	font-family: Roboto;
+}
+
+#about-section-1, #about-section-3 {
+	background: #fff;
+	padding: 50px 0;
+}
+
+.about-text, .about-wedo, .about-testi {
+	text-align: center;
+}
+
+#about-section-4, #about-section-2 {
+	background: #fff;
+    border-top: #ddd solid 1px;
+    border-bottom: #ddd solid 1px;
+	padding: 50px 0;
+}
+
+.about-text h1, .about-testi h3 {
+	font-size: 30px;
+}
+
+.about-text p {
+	font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #424242;
+	padding: 0 15%;
+}
+
+.orange-line {
+	border-color: #E7993D;
+	width: 65px;
+    border-width: 3px;
+	display: inline-block;
+}
+
+.about-quote span {
+	font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+	margin-top: 20px;
+    display: block;
+}
+
+.about-quote .orange-line {
+	margin: 7px 0 12px;
+}
+
+.about-quote .quote-text {
+	font-size: 38px;
+    font-weight: 300;
+    color: #0a0a0a;
+    line-height: 1.2;
+    padding-right: 15%;
+}
+
+.about-quote .quote-moretext {
+	font-size: 14px;
+    font-weight: 300;
+    padding-right: 15%;
+    letter-spacing: 0.3px;
+    line-height: 1.6;
+	margin-top: 20px;
+}
+
+.wwd-icons {
+	width: 150px;
+    margin: 0 auto 20px;
+}
+
+.about-wedo .orange-line {
+	margin-bottom: 35px;
+}
+
+.about-wedo p {
+	padding: 0 35px;
+    line-height: 1.5;
+}
+
+.testi-img {
+	border-radius: 50px;
+	border: #fff solid 5px;
+	margin-right: 10px;
+    float: right;
+}
+
+.about-testi p {
+	text-align: left;
+    background: #ef9872;
+    padding: 15px 20px;
+    border-radius: 9px;
+    color: #fff;
+}
+
+.testibox {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.testithumb, .testitext {
+	padding: 0;
+}
+
+.clientname {
+	font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+
+/* ------------------ Media Queries ------------------ */
+
+@media only screen and (max-width : 980px) {
+	.about-text p, .about-wedo p {
+		padding: 0;
+	}
+	.about-quote {
+		text-align: center;
+	}
+	.about-quote .quote-text, .about-quote .quote-moretext {
+		padding-right: 0;
+	}
+	.clientname {
+		margin-bottom: 25px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.about-graphic img {
+		margin-top: 20px;
+	}
+}
+
+

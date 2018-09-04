@@ -1,0 +1,133 @@
+#personal-info-section2,
+#email-section {
+    background: transparent;
+    margin: 0 15px;
+}
+
+#personal-info-section2 .info-container,
+#email-section .email-form-container {
+    background: #fff;
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.21);
+}
+
+#personal-info-section2 .info-container {
+    padding: 20px 18px;
+}
+
+#personal-info-section2 h2 {
+    margin-top: 0;
+    font-family: Roboto;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #404f6a;
+    border-bottom: #ddd dashed 1px;
+}
+
+#personal-info-section2 p {
+    font-size: 15px;
+    font-family: Roboto;
+    margin-bottom: 5px;
+    color: #484848;
+}
+
+#personal-info-section2 h3,
+#email-section h3 {
+    background: #F5F7F9;
+    padding: 10px 21px 11px 16px;
+    font-size: 15px;
+    border-bottom: #e4e4e4 solid 1px;
+    color: #404f6a;
+    font-family: Roboto;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 0;
+}
+
+#personal-info-section2 .glyphicon,
+#email-section .glyphicon {
+    color: #8e8e8e;
+    top: -2px;
+}
+
+#email-section {
+    margin-bottom: 20px;
+}
+
+#email-section h3 .dropdown-menu {
+    padding: 0;
+}
+
+#email-section .email-form-container {
+    padding: 20px 30px;
+    font-family: Roboto;
+}
+
+#email-section .form-control {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#email-section #email_body {
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+}
+
+#email-section .btn {
+    background: #E29742;
+    border: #E29742;
+    padding: 10px 20px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#email-section .btn:hover {
+    background: #424F6A;
+}
+
+.collapse-info.up-arrow1,
+.collapse-info.up-arrow2 {
+    background: url('../images/up-arrow1.png') no-repeat left center;
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    margin-right: 9px;
+    opacity: 0.5;
+}
+
+.collapse-info.down-arrow1,
+.collapse-info.down-arrow2 {
+    background: url('../images/down-arrow1.png') no-repeat left center;
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    margin-right: 9px;
+    opacity: 0.5;
+}
+
+#table_prospect_result .message-box {
+    padding: 0;
+    background: #fff;
+}
+
+#table_prospect_result .message-box .panel-body {
+    padding: 25px;
+}
+
+@media only screen and (max-width: 480px) {
+    #table_prospect_result .message-container .message-box {
+        padding: 0 !important;
+        margin-top: -1px;
+    }
+    #table_prospect_result .message-container .message-box .panel-collapse {
+        border-top: 1px solid rgb(221, 221, 221);
+    }
+    #table_prospect_result .message-container .message-box .panel-body b {
+        font-size: 15px;
+    }
+}

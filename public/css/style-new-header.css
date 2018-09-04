@@ -1,0 +1,72 @@
+
+/* ------------------ New Header Style ------------------ */
+
+#header-section .navbar-default {
+	background: #eff4f7;
+	border: none;
+	margin-bottom: 0;
+}
+
+#header-section .toplogo {
+	width: 150px;
+}
+
+#header-section .navbar-brand {
+	padding: 6px 15px;
+	margin-right: 20px;
+}
+
+#header-section .navbar-nav>li>a {
+	color: #414f6c;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+	padding: 5px 10px;
+    border-radius: 3px;
+	margin: 9px 7px 0;
+}
+
+#header-section .navbar-nav>.active>a {
+	background: #d4e2ea;
+}
+
+#header-section .trial-btn {
+	background: #ec9b36;
+	color: #fff !important;
+}
+
+/* ------------------ Media Queries ------------------ */
+
+@media only screen and (max-width : 980px) {
+	#header-section .navbar-nav>li>a {
+		margin: 9px 3px 0;
+	}
+}
+
+@media only screen and (max-width : 800px) {
+	#header-section .navbar-nav>li>a {
+		margin: 9px 0px 0;
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	#header-section .trial-btn {
+		background: transparent !important;
+		color: #414f6c !important;
+	}
+	#header-section .navbar-nav, #header-section .navbar-nav>li>a {
+		margin: 0;
+	}
+	#header-section .navbar-nav>li>a {
+		padding: 10px;
+		border-bottom: #d4e2ea solid 1px;
+		text-align: center;
+		font-size: 12px;
+	}
+	#header-section #navbar1 {
+		padding: 0;
+	}
+}

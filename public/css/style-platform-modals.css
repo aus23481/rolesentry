@@ -1,0 +1,293 @@
+
+/* -------------- Platform Modals -------------- */
+
+#savedSearchEditModal .modal-header {
+    padding: 10px 20px 8px;
+    border-bottom: #ececec solid 1px;
+    margin-top: 0;
+    background: #f5f7f9;
+    border-radius: 8px 8px 0 0;
+}
+
+#savedSearchEditModal .modal-title {
+	font-family: Roboto;
+    font-weight: 500;
+    font-size: 17px;
+    color: #404f6a;
+	letter-spacing: 0.3px;
+}
+
+#savedSearchEditModal .btn {
+	/* background: #e7993c; */
+    border: none;
+    padding: 9px 16px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 3px;
+	text-transform: uppercase;
+}
+
+#scheme_selection .btn {
+	background: #424F6A;
+    color: #e5ebf7;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Roboto;
+    font-weight: 300;
+    border-radius: 0;
+    padding: 5px 10px;
+    letter-spacing: 0.2px;
+}
+
+#scheme_selection {
+	/* padding-top: 15px; */
+    /* border-top: #eaeaea solid 1px; */
+    margin-top: 20px;
+}
+
+#savedSearchEditModal .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #f0ad4e;
+    border: 1px solid #f0ad4e;
+    border-radius: 2px;
+    color: #ffeacd;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+}
+
+#savedSearchEditModal .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	color: #fff;
+    margin-right: 3px;
+    margin-left: -2px;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+#savedSearchEditModal .modal-content .close {
+	font-size: 23px;
+    color: #54637f;
+    opacity: 1;
+    margin-right: -4px;
+}
+
+.scheme_step {
+	border: #afb4bd solid 1px;
+    padding: 20px 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+	background: #f5f7f9;
+}
+
+#scheme_steps {
+	font-family: Roboto;
+}
+
+#scheme_steps .btn {
+	background: #61759e;
+    border: none;
+    padding: 9px 16px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+#scheme_steps select {
+	padding: 5px 5px;
+    margin-left: 5px;
+    border-color: #ddd;
+    font-weight: 300;
+}
+
+.form-btns-below {
+	text-align: right;
+}
+
+.addschemestep {
+	background: #f3f3f3 !important;
+    color: #555 !important;
+    border: #ddd dashed 1px !important;
+    margin-top: 11px;
+}
+
+.addschemestep:hover {
+	background: #f5f7f9 !important;
+}
+
+.scheme_step .contacts {
+	border-left: #ddd solid 1px;
+}
+
+.scheme_step .contacts .h-card {
+	padding: 8px 0 10px 12px;
+    color: #484444;
+    font-family: Roboto;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.scheme_step .contacts .glyphicon {
+    font-size: 13px;
+    color: #4e5e82;
+    margin-right: 4px;
+}
+
+.scheme_step .contacts .fa-asterisk {
+	font-size: 9px;
+    color: #61759e;
+    padding: 0 4px 10px;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: -16px;
+}
+
+#contactList li {
+	line-height: 1;
+	height: auto;
+	background: #f3f3f3;
+    border: #ddd dashed 1px;
+    border-radius: 3px;
+	margin-bottom: 6px;
+}
+
+#contactList li:hover {
+    background: #f5f7f9;
+	margin-left: 0;
+	border-left: #c3c3c3 dashed 1px;
+}
+
+.scheme_step .contacts h4 {
+	font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.form-btns-below .btn {
+	padding: 12px 35px !important;
+    font-size: 15px !important;
+}
+
+#savedSearchEditModal .modal-dialog::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #424f6ac7;
+	border-radius: 50px;
+}
+#savedSearchEditModal .modal-dialog::-webkit-scrollbar {
+	width: 6px;
+	background-color: #ffffff59;
+	border-radius: 50px;
+}
+#savedSearchEditModal .modal-dialog::-webkit-scrollbar-thumb {
+	background-color: #e7e7e7;
+	border-radius: 50px;
+}
+#savedSearchEditModal .modal-dialog {
+	border-radius: 10px;
+}
+
+#savedSearchEditModal .modal-content {
+	margin-right: 15px;
+}
+
+.default-templates {
+	border: #afb4bd solid 1px;
+	background: #f5f7f9;
+	padding: 17px 25px;
+    border-radius: 5px;
+}
+
+.default-templates h3 {
+	margin: 0 0 8px 0;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000;
+}
+
+.switch-field {
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	overflow: hidden;
+}
+
+.switch-title {
+  margin-bottom: 6px;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+  float: left;
+}
+
+.switch-field label {
+  display: inline-block;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 6px 14px;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+  margin-right: 5px;
+  border-radius: 3px !important;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+	background: #F3F3F3;
+}
+
+.switch-field input:checked + label {
+  background-color: #60749e;
+    color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+.update-btn {
+	background: #e7993c;
+}
+
+.close-btn {
+	background: #585858;
+}
+
+#scheme_steps .btn:hover {
+	background: #3f4e6d;
+}
+
+.update-btn:hover {
+	background: #d28c39;
+}
+
+.close-btn:hover {
+	background: #3e3d3d;
+}
+
+
+/* -------------- Media Queries -------------- */

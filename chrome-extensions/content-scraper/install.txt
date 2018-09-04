@@ -1,0 +1,6 @@
+1. in chrome go to chrome://extensions/
+2. Enable Developer Mode
+3. Click on "Load Unpacked"
+4. Locate source code directory and go ahead.
+5. Click on icon of newly added extension on top right addressbar and enjoy the plugin
+
